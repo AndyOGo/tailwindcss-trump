@@ -47,7 +47,7 @@ module.exports = {
 
 ## Usage
 
-Use the `trump:` modifier (you can play with it [here](https://play.tailwindcss.com/BJ3MoDbTJn)):
+Use the `trump:` modifier (you can play with it [here](https://play.tailwindcss.com/v5ZpuKy2hH):
 
 ```html
 <div class="bg-red-500 bg-sky-500 h-4"></div>
@@ -57,4 +57,8 @@ Use the `trump:` modifier (you can play with it [here](https://play.tailwindcss.
 <div class="trump:bg-red-500 trump:bg-sky-500 h-4"></div>
 
 <div class="trump:trump:bg-red-500 trump:bg-sky-500 h-4"></div>
+
+<div class="bg-red-500 bg-sky-500 trump:hover:bg-green-500 hover:bg-yellow-500 h-4"></div>
+
+<div class="bg-red-500 bg-sky-500 trump:md:bg-green-500 md:bg-yellow-500 h-4"></div>
 ```
